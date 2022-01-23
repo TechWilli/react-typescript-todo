@@ -20,11 +20,10 @@ const TodoList = ({ todoList, setTodo }: Props) => {
 
   // como boa prática, caso o id mude para string ou algo do tipo, eu passo sempre o tipo certo, referenciando ITodo['id']
   const deleteTodo = useCallback((todoId: ITodo['id']) => {
-    setTodo(prevState => {
+    
+    const newTodos = todoList.filter(({ id }) => id !== todoId);
 
-      const newTodos = todoList.filter(({ id }) => id !== todoId);
-      return newTodos;
-    })
+    setTodo(newTodos);
 
   }, [todoList, setTodo])
 
