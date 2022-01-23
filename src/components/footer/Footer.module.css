@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  min-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+}
+
+.credits {
+  color: #FFFFFF;
+  margin: 1rem;
+}
+
+.githubLink {
+  color: rgb(219, 199, 255);
+  font-weight: bold;
+}
+
+.githubLink:active, .githubLink:hover {
+  color: rgb(160, 146, 187);
+}

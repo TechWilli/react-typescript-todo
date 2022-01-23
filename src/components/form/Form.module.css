@@ -1,0 +1,72 @@
+.container {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  background-color: rgb(250, 250, 250);
+}
+
+.formWrapper {
+  width: 36%;
+  min-width: 28rem;
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: rgb(219, 199, 255);
+  border: 3px solid rgb(39, 39, 39);
+  position: relative;
+}
+
+.formWrapper::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(39, 39, 39);
+  position: absolute;
+  left: 0;
+  bottom: -1.35rem;
+}
+
+.form {
+  display: flex;
+  height: 3rem;
+}
+
+.inputTodo {
+  background-color: #FFFFFF;
+  border: 3px solid rgb(39, 39, 39);
+  width: 100%;
+  padding: .3rem .75rem;
+  font-size: 1rem;
+  transition: 200ms box-shadow;
+}
+
+.inputTodo:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttonSubmit {
+  cursor: pointer;
+  background-color: rgb(39, 39, 39);
+  border: none;
+  padding: .5rem 1rem;
+  color: #FFFFFF;
+  margin-left: 1rem;
+  font-size: 1rem;
+  transition: 200ms box-shadow;
+}
+
+.buttonSubmit:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttonSubmit:active {
+  background-color: black;
+}
+
+.buttonSubmit:disabled {
+  cursor: not-allowed;
+  background-color: grey;
+}

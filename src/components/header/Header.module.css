@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  min-height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+}
+
+.headerTitle {
+  color: #FFFFFF;
+  margin: 1rem;
+}
