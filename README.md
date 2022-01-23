@@ -4,8 +4,6 @@
 
 ### imagens da aplicação abaixo:
 <br />
-<br />
 <img src="./screenshots/screenshot-todo-typescript-react-1.png" alt="screenshot todo typescript rect ">
-<br />
 <br />
 <img src="./screenshots/screenshot-todo-typescript-react-2.png" alt="screenshot todo typescript rect ">
